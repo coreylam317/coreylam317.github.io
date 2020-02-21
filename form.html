@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+    <html>
+      <head>
+        <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <title>Add Interests</title>
+      </head>
+      <body>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+          <ul class="navbar-nav">
+            <li class="nav-item Home">
+              <a class="nav-link" href="file:///Users/clam317/Documents/HTML%20and%20CSS%20HW/mypage_bootstrap.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="file:///Users/clam317/Documents/HTML%20and%20CSS%20HW/mypage.html">Orignial Profile Page</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.colorado.edu/triosss/">Visit TRiO</a>
+            </li>
+          </ul>
+        </nav>
+        <h1>Add New Interest</h1>
+        <form>
+          <div class="form-group">
+            <label for="InputinterestName1">Interest Name</label>
+            <input type="name" class="form-control" id="InputinterestName1" aria-describedby="helpName" placeholder="Name">
+            </div>
+            <div class="form-group">
+              <label for="interestTextarea1">Text About Interest</label>
+              <textarea class="form-control" id="interestTextarea1" rows="6"></textarea>
+            </div>
+            <div class="form-group">
+              <div class="row">
+                <div class="col">
+              <label for="controlFile1">Upload Local Image:</label>
+              <p></p>
+              <input type="file" class="Form-control-file" id="controlFile1">
+              </div>
+              <div class="col">
+                <label for="tweetControlselect1">Select # Tweets in Display</label>
+                <select class="form-control" id="tweetControlselect1">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </select>
+              </div>
+            </div>
+            </div>
+            <p> On a scale of 1-5, how interested in this are you?</p>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="CheckBox1" value="option1">
+              <label class="form-check-label" for="CheckBox1">1</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="CheckBox2" value="option2">
+                <label class="form-check-label" for="CheckBox2">2</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" id="CheckBox3" value="option3">
+                  <label class="form-check-label" for="CheckBox3">3</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="CheckBox4" value="option4">
+                    <label class="form-check-label" for="CheckBox4">4</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="CheckBox5" value="option5">
+                      <label class="form-check-label" for="CheckBox5">5</label>
+                      </div>
+            <p></p>
+            <p> Login to Finish Submitting </p>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputUsername1">Username</label>
+                <input type="username" class="form-control" id="inputUsername1" placeholder="Username">
+                </div>
+              <div class="form-group col-md-6">
+                <label for="inputPassword1">Password</label>
+                <input type="password" class="form-control" id="inputPassword1" placeholder="Password">
+              </div>
+              <button type="submit" class="btn btn-primary">Sign in</button>
+          </form>
+        </body>
+    </html>
